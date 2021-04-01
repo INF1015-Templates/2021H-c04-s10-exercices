@@ -1,14 +1,10 @@
-# Structures de données et algorithmes
+# Introduction aux interfaces graphiques
 
-## Fichier `List.hpp`
+## Fichiers `Counter.*` et `CounterWindow.*`
 
-Exemple de classe générique à liens doubles utilisant les pointeurs intelligents et incluant l'affectation/construction par copie et déplacement (*move*). Cette version est beaucoup plus complète et fonctionnelle que la version des notes de cours. On a aussi ajouté un opérateur de comparaison (`operator<`) et une fonction de hachage (`std::hash<List<T>>`) pour pouvoir s'en servir comme clé dans un dictionnaire.
+Exemple de compteur des notes de cours sur les signaux et slots, mais avec un GUI simple pour aller avec.
 
-## Fichier `brackets.hpp`
+## Autres fichiers
 
-Exemple d'analyse de parenthèse utilisant une pile (*stack*).
-
-## Fichier `School.hpp`
-
-Exemple d'école des chapitres sur l'héritage, mais modifié pour utiliser des conteneurs associatifs plutôt que des vecteurs avec des recherches linéaires.
+L'exemple de gestionnaire d'employés des slides, mais complet, fonctionnel et utilisant Qt Designer plutôt que de faire des layout en code.
 
